@@ -138,7 +138,7 @@ char **split(char *string, char *seperators, int *count)
                         (strlen(buffer) + 1);
       
       // allocate enough space using malloc, store the pointer into the strings 
-      // array of pointers at hte current string_index
+      // array of pointers at the current string_index
       strings[string_index] = malloc(to_allocate);
       
       // copy the buffer into this dynamically allocated space 
